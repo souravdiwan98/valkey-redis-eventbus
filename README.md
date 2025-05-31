@@ -1,6 +1,17 @@
 # valkey-redis-eventbus
 
+[![npm version](https://img.shields.io/npm/v/valkey-redis-eventbus.svg)](https://www.npmjs.com/package/valkey-redis-eventbus)
+
 **Keywords:** redis, valkey, eventbus, event-bus, pubsub, nodejs, typescript, inter-process-communication, messaging, distributed, microservices
+
+## Why It Exists
+
+Modern distributed Node.js applications often require a simple, scalable, and reliable way to communicate between multiple processes or services. Traditional in-memory event emitters do not work across different instances or servers, and building a custom solution for inter-process communication can be complex and error-prone.
+
+`valkey-redis-eventbus` solves this problem by leveraging Redis (Valkey) as a fast, robust pub/sub backend, enabling seamless event-based communication between multiple Node.js processes, containers, or microservices. This allows you to:
+- Broadcast events to all listening services, regardless of where they run
+- Decouple services and scale horizontally without losing event delivery
+- Use a familiar event-driven API with the reliability and performance of Redis
 
 A lightweight event bus implementation using Redis (Valkey) for scalable inter-process communication in Node.js applications.
 
