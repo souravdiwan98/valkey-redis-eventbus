@@ -1,6 +1,6 @@
 {
 	"name": "valkey-redis-eventbus",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A lightweight event bus implementation using Redis (Valkey) for scalable inter-process communication in Node.js applications.",
 	"main": "build/index.js",
 	"typings": "build/index",
