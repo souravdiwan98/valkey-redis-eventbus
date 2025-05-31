@@ -1,4 +1,7 @@
 # valkey-redis-eventbus
+
+**Keywords:** redis, valkey, eventbus, event-bus, pubsub, nodejs, typescript, inter-process-communication, messaging, distributed, microservices
+
 A lightweight event bus implementation using Redis (Valkey) for scalable inter-process communication in Node.js applications.
 
 ## What's New
