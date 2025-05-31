@@ -30,5 +30,18 @@
 		"lint": "node node_modules/tslint/bin/tslint --project tsconfig.json --config tslint.json",
 		"test": "jest --forceExit --config=jest.config.json",
 		"prepublishOnly": "npm install && npm run build"
-	}
+	},
+	"keywords": [
+		"redis",
+		"valkey",
+		"eventbus",
+		"event-bus",
+		"pubsub",
+		"nodejs",
+		"typescript",
+		"inter-process-communication",
+		"messaging",
+		"distributed",
+		"microservices"
+	]
 }
