@@ -1,0 +1,22 @@
+# Ignore everything except build output and package essentials
+src/
+tests/
+examples/
+__tests__/
+*.test.ts
+*.spec.ts
+*.log
+*.md
+*.json
+!package.json
+!build/
+!.npmignore
+jest.config.*
+tsconfig.*
+tsconfig.json
+tsconfig.build.json
+*.map
+node_modules/
+.git/
+.gitignore
+.vscode/

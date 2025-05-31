@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "build/",
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": false,
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "declaration": true,
+    "declarationMap": false,
+    "allowJs": false,
+    "resolveJsonModule": true,
+	"module": "CommonJS",
+    "target": "ES2020",
+  },
+  "compileOnSave": true,
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
