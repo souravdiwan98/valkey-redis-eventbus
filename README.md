@@ -1,6 +1,8 @@
 # valkey-redis-eventbus
 
-[![npm version](https://img.shields.io/npm/v/valkey-redis-eventbus.svg)](https://www.npmjs.com/package/valkey-redis-eventbus)
+![NPM Version](https://img.shields.io/npm/v/valkey-redis-eventbus)
+![Bundle Size](https://badgen.net/bundlephobia/minzip/valkey-redis-eventbus)
+![Downloads](https://img.shields.io/npm/dw/valkey-redis-eventbus)
 
 **Keywords:** redis, valkey, eventbus, event-bus, pubsub, nodejs, typescript, inter-process-communication, messaging, distributed, microservices
 
