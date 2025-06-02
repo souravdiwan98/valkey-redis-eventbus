@@ -6,6 +6,10 @@
 
 **Keywords:** redis, valkey, eventbus, event-bus, pubsub, nodejs, typescript, inter-process-communication, messaging, distributed, microservices
 
+## Inspiration
+
+This project is inspired by the excellent work in [yss14/node-redis-eventbus](https://github.com/yss14/node-redis-eventbus).
+
 ## Why It Exists
 
 Modern distributed Node.js applications often require a simple, scalable, and reliable way to communicate between multiple processes or services. Traditional in-memory event emitters do not work across different instances or servers, and building a custom solution for inter-process communication can be complex and error-prone.
